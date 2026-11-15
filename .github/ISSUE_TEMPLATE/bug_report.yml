@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in Graphium isn't working as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues are public.** Screenshots, campaign files and map art show your maps, notes and names to anyone. Only attach what you're happy to share, or email it instead (see the support page).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a campaign from Campaign Templates
+        2. ...
+  - type: input
+    id: version
+    attributes:
+      label: Graphium version
+      description: Graphium > About Graphium.
+      placeholder: 1.0 (100)
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: macOS 26.1
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics (optional)
+      description: Help > Collect Diagnostics makes a folder of logs and crash reports without campaign content. Look through it before you attach it.

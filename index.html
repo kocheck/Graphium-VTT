@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphium Support</title>
+    <meta name="description" content="Get help with Graphium, the virtual tabletop for the Mac." />
+    <link rel="icon" type="image/svg+xml" href="icon.svg" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <style>
+      :root {
+        --bg: #111113;
+        --text: #edeef0;
+        --text-muted: #9ba1a6;
+        --accent: #ffc53d;
+        --font-display: 'New York', 'New York Large', ui-serif, Georgia, serif;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          sans-serif;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      main {
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 64px 16px;
+      }
+
+      h1,
+      h2 {
+        font-family: var(--font-display);
+        font-weight: 600;
+      }
+
+      h1 {
+        font-size: 32px;
+        margin-bottom: 8px;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin: 32px 0 8px;
+      }
+
+      p,
+      ul {
+        margin-bottom: 12px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      .muted,
+      footer {
+        color: var(--text-muted);
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      footer {
+        padding: 24px 16px;
+        font-size: 14px;
+        text-align: center;
+      }
+
+      footer a {
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Graphium Support</h1>
+      <p class="muted">Graphium VTT for macOS. A virtual tabletop for the Dungeon Master.</p>
+
+      <h2>Get help</h2>
+      <ul>
+        <li>
+          <strong>Report a bug or ask for a feature</strong> on
+          <a href="https://github.com/kocheck/graphium-vtt/issues/new/choose">GitHub Issues</a>. Search
+          <a href="https://github.com/kocheck/graphium-vtt/issues">open issues</a> first in case it's already there. You need a free GitHub
+          account, and issues are public.
+        </li>
+        <li>
+          <strong>No GitHub account?</strong> Email
+          <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>.
+        </li>
+      </ul>
+
+      <h2>Before you attach anything</h2>
+      <p>
+        Help &gt; Collect Diagnostics puts Graphium's logs and crash reports in a folder you can
+        read first. They leave out campaign content, but a screenshot or a campaign file shows your
+        maps, notes and names. Issues are public, so only attach what you're happy for anyone to
+        see, or email it instead.
+      </p>
+
+      <h2>Good to know</h2>
+      <ul>
+        <li>Graphium needs macOS 14 or later.</li>
+        <li>
+          A campaign is a <code>.graphiumcampaign</code> folder you choose where to save. Back it up
+          like any other file. Earlier versions are kept as checkpoints (File &gt; Restore
+          Checkpoint).
+        </li>
+        <li>
+          The World View is the players' window. Open it with Shift-Command-W, then choose Show on
+          Display to put it on a TV or projector.
+        </li>
+        <li>
+          AI Tools (Settings &gt; AI Tools) are off until you choose a campaign folder and turn them
+          on. Graphium must be open for an AI app to edit a map.
+        </li>
+      </ul>
+
+      <h2>Privacy</h2>
+      <p>
+        Graphium collects no data. Read the <a href="privacy.html">privacy policy</a>.
+      </p>
+    </main>
+    <footer>
+      &copy; Graphium &middot;
+      <a href="./">Support</a> &middot;
+      <a href="privacy.html">Privacy</a>
+    </footer>
+  </body>
+</html>
