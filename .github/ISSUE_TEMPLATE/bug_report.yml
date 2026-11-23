@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Issues are public.** Screenshots, campaign files and map art show your maps, notes and names to anyone. Only attach what you're happy to share, or email it instead (see the support page).
+        **Issues are public.** Screenshots, campaign files and map art show your maps, notes and names to anyone. Only attach what you're happy to share.
   - type: textarea
     id: what-happened
     attributes:
