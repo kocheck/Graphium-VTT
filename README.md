@@ -4,6 +4,6 @@ Graphium is a virtual tabletop for the Mac. The Dungeon Master builds and runs t
 
 This repository holds Graphium's public support site and issue tracker. The app's source isn't here.
 
-- **Support:** https://kocheck.github.io/graphium-vtt/
-- **Privacy policy:** https://kocheck.github.io/graphium-vtt/privacy.html
+- **Support:** https://getgraphium.com/support
+- **Privacy policy:** https://getgraphium.com/privacy
 - **Report a bug or request a feature:** [open an issue](https://github.com/kocheck/graphium-vtt/issues/new/choose). Issues are public, so check screenshots and attachments for anything you'd rather keep private.
